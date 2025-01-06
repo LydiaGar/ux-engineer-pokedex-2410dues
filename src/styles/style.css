@@ -73,8 +73,40 @@
 /** MAIN **/
 .main__grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: var(--pk-spacing-md);
     margin-top: var(--pk-spacing-lg);
+    margin-left: var(--pk-spacing-lg);
 }
 /** END MAIN **/
+
+/** CARD **/
+.card{
+    background: #fff;
+    border-radius: var(--pk-rounded-lg);
+    box-shadow: var(--pk-drop-shadow);
+    padding: var(--pk-spacing-md);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card__image{
+    width: 96px;
+    height: 96px;
+    margin-bottom: var(--pk-spacing-sm);
+}
+.card__title{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: var(--pk-spacing-xs);
+}
+.card__number{
+    font-size: 0.5rem;
+    color: #666;
+}
+/** END CARD **/
