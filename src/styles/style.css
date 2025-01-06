@@ -69,3 +69,12 @@
     flex-shrink: 0; /* El elemento no encoge */
 }
 /** END HEADER **/
+
+/** MAIN **/
+.main__grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: var(--pk-spacing-md);
+    margin-top: var(--pk-spacing-lg);
+}
+/** END MAIN **/
