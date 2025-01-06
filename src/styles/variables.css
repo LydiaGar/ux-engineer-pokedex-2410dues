@@ -1,0 +1,21 @@
+:root {
+    --pk-color-primary: #DC0A2D;
+    --pk-color-secondary: #28AAFD;
+
+    --pk-inner-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.2);
+    --pk-drop-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+
+    --pk-spacing-xs: 4px;
+    --pk-spacing-sm: 8px;
+    --pk-spacing-md: 16px;
+    --pk-spacing-lg: 24px;
+    --pk-spacing-xl: 32px;
+    --pk-spacing-xxl: 48px;
+
+    --pk-rounded-xs: 2px;
+    --pk-rounded-sm: 5px;
+    --pk-rounded-md: 10px;
+    --pk-rounded-lg: 15px;
+    --pk-rounded-xl: 25px;
+    --pk-rounded-xxl: 50px;
+}
